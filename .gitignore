@@ -1,0 +1,29 @@
+# Node modules
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build & runtime files
+dist/
+build/
+*.local
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Puppeteer Chromium cache (optional, Render installs its own)
+.puppeteer/
+
+# IDE-specific
+.vscode/
+.idea/
+
+# dotenv files (if you add API keys later)
+.env
+.env.local
+.env.development
+.env.production
